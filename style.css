@@ -1,0 +1,142 @@
+#id {
+    background-color: #ebfdfd;
+    border: 4px solid #f1e4e4;
+    border-radius: 20px;
+}
+.btn{
+    border-radius: 0;
+}
+.ticket-top .btn {
+    height: 37px;
+    border: 1px solid black;
+    width: 60px;
+}
+.seatPlan{
+    border: 2px solid #b5adad;
+    justify-content: space-between;
+}
+.door {
+    height: 50px;
+    width: 135px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seat-top{
+    justify-content: space-between;
+}
+.driver{
+    height: 50px;
+    width: 135px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seat {
+    height: 40px;
+    border: 1px solid #b5adad;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    cursor: pointer;
+}
+.sold{
+    background-color: red;
+}
+.available{
+    background-color: #fff;
+}
+.available:active {
+    transform: scale(.98);
+}
+.available:hover h5 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.available:focus {
+    transform: scale(.98);
+}
+.booked{
+    background-color: gray;
+}
+.selected{
+    background-color: #00ff00;
+}
+.seats{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.f-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25.73vw;
+}
+.form-control {
+    width: 68%;
+}
+.div .btn{
+    border-radius: .62rem;
+}
+
+.info {
+    margin-top: 11px;
+    /* border: 1px solid gray;
+    padding: 5px;
+    box-sizing: border-box; */
+  }
+  
+  button.confirm {
+    margin-top: 11px;
+    margin-left: 0;
+    margin: 0;
+  }
+  
+  .selected-seats th,
+  .selected-seats td {
+    padding: 2px 9px;
+    text-align: left;
+  }
+  
+  .ticket-app input[type="text"] {
+    /* width: 100%; */
+    width: 46%;
+    padding: 4px 9px;
+  }
+  
+  .confirm-button {
+    border: 1px solid blue;
+    background-color: #006ea2;
+    color: #fff;
+    cursor: pointer;
+    padding: 9px 44px;
+    width: 100%;
+    margin: 0;
+    margin-top: 11px;
+  }
+  
+  .confirm-button__disabled {
+    opacity: 0.4;
+  }
+  
+  .confirmed-dialog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 33px;
+  }
+  
+  .confirmed-dialog h3 {
+    color: green;
+  }
